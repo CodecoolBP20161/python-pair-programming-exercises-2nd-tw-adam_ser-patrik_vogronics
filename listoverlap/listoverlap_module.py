@@ -4,8 +4,8 @@ c = []
 
 
 def listoverlap(list1, list2):
-    for element in list1:
-        if element in list2:
+    for element in list2:
+        if element in list1:
             c.append(element)
     return c
 
