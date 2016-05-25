@@ -1,9 +1,12 @@
 def palindrome(str):
-    return
+    str = str.replace(" ", "")
+    str = str.lower()
+    return str[::-1] == str
 
 
 def main():
-    return
+    word = input("Write in a word:")
+    palindrome(word)
 
 
 if __name__ == '__main__':
